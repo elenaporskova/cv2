@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  color: #145374;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #145374;
+  margin: 0 auto 10px auto;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #0f4c75;
+  font-family: 'Alata', sans-serif;
+}
+
+p {
+  font-family: 'Alata', sans-serif;
+}
+
+hr {
+  border-top: 5px dotted grey;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 5%;
+  margin: 50px auto;
+}
+
+/*CLASS SELECTIONS*/
+.top-container {
+  background-color: #7fdbda;
+}
+
+.middle-container {
+  margin: 0;
+}
+
+.bottom-container {
+  margin: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+}
+
+.top-cloud {
+  position: relative;
+  top: 50px;
+  left: 260px;
+}
+
+.me {
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  margin: 50px auto 15px auto;
+  height: 150px;
+  width: 150px;
+}
+
+.mountain {
+  position: relative;
+  top: 3px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.computer {
+  width: 25%;
+  float: right;
+  margin: auto auto auto 30px;
+}
+
+.hand {
+  width: 25%;
+  float: left;
+  margin: auto 30px auto auto;
+}
+
+.contact-me {
+  width: 30%;
+  margin: auto;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-paragraph {
+  margin: auto auto 50px auto;
+  line-height: 2;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.contact-paragraph {
+  line-height: 1.5
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 0;
+  height: 150px;
+}
+
+.copyright {
+  margin-bottom: 0;
+  color: white;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.btn {
+  margin: 50px;
+  background-color: #b0cac7;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #b0cac7;
+  color: white;
+}
